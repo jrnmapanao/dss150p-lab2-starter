@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgres:16
-    container_name: dss150p-w23-postgres
+    container_name: dss150p-lab2-postgres
     environment:
       POSTGRES_DB: dss150p
       POSTGRES_USER: dss150p
